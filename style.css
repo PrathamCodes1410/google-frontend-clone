@@ -14,6 +14,17 @@ body,input,button{
     margin: 20px;
 }
 
+.AdvSearch{
+    background: #161515;
+    border: 1px solid #FFFFFF;
+    color-scheme: white;
+    color: white;
+    width: 385px;
+    height: 25px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
 .head{
     margin: 25px;
     display: flex;
@@ -21,14 +32,57 @@ body,input,button{
     justify-content: flex-end;
 }
 
+.headAdv{
+    margin: 25px;
+}
+
 #img{
     padding: 15px;
 }
 
+#gs{
+    padding: 15px;
+}
+
+#gsAdv{
+    margin-left: 1050px;
+    padding: 15px;
+}
+
 .mainButtons{
-    margin-left: 580px;
+    margin-left: 575px;
+}
+
+.imageButtons{
+    margin-left: 645px;
 }
 
 #lucky{
     padding: 15px
+}
+
+#headerLogo{
+    height: 24px;
+    width: 74px;
+}
+
+#headingAdv{
+    color: #bb382e;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#h4-Adv{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.AdvRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left{
+    width: 200px;
 }
