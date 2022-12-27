@@ -8,8 +8,27 @@ body,input,button{
     border: 1px solid #FFFFFF;
     border-radius: 50px;
     color-scheme: white;
-    width: 800px;
-    height: 50px;
+    width: 600px;
+    height: 40px;
     color: white;
     margin: 20px;
+}
+
+.head{
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#img{
+    padding: 15px;
+}
+
+.mainButtons{
+    margin-left: 580px;
+}
+
+#lucky{
+    padding: 15px
 }
