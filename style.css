@@ -57,10 +57,6 @@ body,input,button{
     margin-left: 645px;
 }
 
-#lucky{
-    padding: 15px
-}
-
 #headerLogo{
     height: 24px;
     width: 74px;
@@ -85,4 +81,8 @@ body,input,button{
 
 .left{
     width: 200px;
+}
+
+.p-adv{
+    vertical-align: sub;
 }
